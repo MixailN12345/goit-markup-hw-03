@@ -1,0 +1,45 @@
+/*цвет основного текста #212121*/
+/*вторичний цвет текста #757575*/
+/*цвет background #E5E5E5*/
+/*вторичный цвет background #F5F4FA*/
+/*белый #FFFFFF*/
+/*acent #2196F3*/
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #fff;
+  --accent-color: #2196f3;
+  --primary-bg-color: #2196f3;
+  --primary-logo-color: #000;
+}
+body {
+  background-color: var(--title-text-color);
+  color: var(--primary-text-color);
+}
+
+/*logo*/
+.logo {
+  color: var(--primary-logo-color);
+}
+/*navigation*/
+.menu-nav .link {
+  color: var(--primary-text-color);
+}
+.menu-nav {
+  list-style: none;
+}
+.menu-nav .link:hover,
+.menu-nav .link:focus {
+  color: var(--accent-color);
+}
+.menu-nav .link.current {
+  color: var(--accent-color);
+}
+
+/*section*/
+.section-title {
+  color: var(--primary-text-color);
+}
+.button {
+  color: var(--primary-text-color);
+  background-color: var(--primary-bg-color);
+}

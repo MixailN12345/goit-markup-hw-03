@@ -9,6 +9,7 @@
   --title-text-color: #fff;
   --accent-color: #2196f3;
   --primary-bg-color: #2196f3;
+  --primary-logo-color: #000;
 }
 body {
   background-color: var(--title-text-color);
@@ -17,18 +18,18 @@ body {
 
 /*logo*/
 .logo {
-  color: #000000;
-}
-.menu-nav .link {
-  color: --primary-text-color;
+  color: var(--primary-logo-color);
 }
 /*navigation*/
+.menu-nav .link {
+  color: var(--primary-text-color);
+}
 .menu-nav {
   list-style: none;
 }
 .menu-nav .link:hover,
 .menu-nav .link:focus {
-  color: --accent-color;
+  color: var(--accent-color);
 }
 .menu-nav .link.current {
   color: var(--accent-color);
@@ -36,7 +37,7 @@ body {
 
 /*hero*/ /*пока цвет черный*/
 .hero {
-  color: #000000;
+  color: var(--primary-logo-color);
 }
 
 /*section*/
