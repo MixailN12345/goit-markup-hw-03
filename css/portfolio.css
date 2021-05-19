@@ -14,11 +14,18 @@
 body {
   background-color: var(--title-text-color);
   color: var(--primary-text-color);
+  font-family: Rotobo, sans-serif;
 }
 
 /*logo*/
 .logo {
   color: var(--primary-logo-color);
+  font-family: Raleway;
+  font-size: 28px;
+  line-height: 1.14;
+}
+.webstudio {
+  color: var(--accent-color);
 }
 /*navigation*/
 .menu-nav .link {
