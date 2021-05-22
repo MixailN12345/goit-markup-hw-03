@@ -8,14 +8,17 @@
   --primary-text-color: #212121;
   --title-text-color: #fff;
   --accent-color: #2196f3;
-  --primary-bg-color: #2196f3;
+  --primary-bg-color: #2F303A;
   --primary-logo-color: #000;
   --text-color: #757575;
+  --address-color: rgba(255, 255, 255, 0.6);
+  --buttom-color: #188CE8;
 }
 body {
   background-color: var(--title-text-color);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
+  margin: 0;
 }
 
 /*logo*/
@@ -37,6 +40,7 @@ font-size: 14px;
 line-height: 1.2;
 text-decoration: none;
 }
+
 .menu-nav {
   list-style: none;
 }
@@ -67,22 +71,54 @@ text-decoration: none;
 .hero {
   text-align: center;
 }
+.hero {
+background-color: var(--primary-bg-color);
+height: 600px;
+left: 0px;
+top: 80px;
+}
 .hero-title {
-color: var(--accent-color);
+color: var(--title-text-color);
 text-align: center;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+padding-top: 200px;
 }
 
 /*section*/
 
 .section-title {
 color: var(--primary-text-color);
-font-weight: 600;
-font-size: 36px;
+font-weight: bold;
+font-size: 14px;
 line-height: 1.2;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.works {
+color: var(--primary-text-color);
+font-weight: bold;
+font-size: 36px;
+line-height: 1.16;
 text-align: center;
+letter-spacing: 0.03em;
+}
+.title {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.profession {
+color: var(--text-color);
+font-weight: normal;
+font-size: 16px;
+line-height: 1.2;
+letter-spacing: 0.03em;
 }
 li {
 list-style: none;
@@ -94,6 +130,39 @@ font-size: 14px;
 line-height: 1.7;
 }
 .buttom {
-  color: var(--title-text-color);
+color: var(--title-text-color);
+background: var(--buttom-color);
+border-radius: 4px;
+font-family: inherit;
+font-weight: bold;
+font-size: 16px;
+line-height: 1.9;
+letter-spacing: 0.06em;
+}
+.footer {
   background-color: var(--primary-bg-color);
+}
+.logotype {
+  color:#fff;
+}
+.address {
+font-style: normal;
+color: var(--title-text-color);
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+}
+
+.inform .inform-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--address-color);
+}
+.inform-link:hover,
+.inform-link:focus {
+  color: var(--accent-color);
 }

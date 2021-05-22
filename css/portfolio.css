@@ -8,9 +8,11 @@
   --primary-text-color: #212121;
   --title-text-color: #fff;
   --accent-color: #2196f3;
-  --primary-bg-color: #2196f3;
+  --primary-bg-color: #2F303A;
   --primary-logo-color: #000;
   --text-color: #757575;
+  --mail-color: rgba(255, 255, 255, 0.6);
+
 }
 body {
   background-color: var(--title-text-color);
@@ -38,9 +40,10 @@ text-decoration: none;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.2;
+letter-spacing: 0.02em;
 }
 .menu-nav {
-  list-style: none;
+list-style: none;
 }
 .menu-nav .link:hover,
 .menu-nav .link:focus {
@@ -48,24 +51,40 @@ color: var(--accent-color);
 
 }
 .menu-nav .link.current {
-  color: var(--accent-color);
+color: var(--accent-color);
 }
 
 /* contacts */
 .contacts {
-  list-style: none;
+list-style: none;
 }
 .contacts-list  {
-  color: var(--text-color);
-  text-decoration: none;
+color: var(--text-color);
+text-decoration: none;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.2;
+letter-spacing: 0.02em;
 }
 .contacts-list:hover,
 .contacts-list:focus {
   color: var(--accent-color);
 }
 .button {
-  color: var(--title-text-color);
-  background-color: var(--primary-bg-color);
+color: var(--title-text-color);
+background-color: var(--accent-color);
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+}
+.buttonLink {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
 }
 /*section*/
 .section-title {
@@ -78,11 +97,47 @@ h1 {
 color: var(--primary-text-color); 
 font-weight: bold;
 font-size: 18px;
-line-height: 2;
+line-height: 2.0;
 }
 p {
 color: var(--text-color); 
 font-weight: normal;
 font-size: 16px;
 line-height: 1.87;
+}
+footer {
+  background-color: var(--primary-bg-color);
+}
+.logotype {
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+color: var(--title-text-color);
+
+}
+.address {
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--title-text-color);
+}
+.mail {
+list-style: none;
+}
+.mail-list  {
+ font-style: normal;
+ font-weight: normal;
+ font-size: 14px;
+ line-height: 1.71;
+ letter-spacing: 0.03em;  
+ color: var(--mail-color); 
+ text-decoration: none;
+}
+.mail-list:hover,
+.mail-list:focus {
+  color: var(--accent-color);
 }
