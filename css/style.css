@@ -169,6 +169,7 @@ ul {
   
 }
 
+/*особенности*/
 .feature-list .item{
   width: 270px;
   margin-right: 30px;
@@ -176,14 +177,17 @@ ul {
 .feature-list .item:nth-child(4n) {
   margin-right: 0;
 }
+
+/* чем мы занимаемся */
 .feature-list .projects {
-  display: flex;
-  flex-wrap: wrap;
+  width: 370px;
   margin-right: 30px;
 }
 .feature-list .projects:nth-child(3n) {
   margin-right: 0;
 }
+
+ /* секция */
 .section {
 padding-top: 94px;
 }
@@ -206,7 +210,18 @@ line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
 }
-
+/* НАША КОМАНДА */
+.cards {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+.cards .cards-item {
+  width: 270px;
+  margin-right: 30px;
+}
+.cards .cards-item:nth-child(4n) {
+  margin-right: 0;
+}
 .title {
 margin: 0;
 padding-top: 30px;  
@@ -225,6 +240,7 @@ font-size: 16px;
 line-height: 1.2;
 letter-spacing: 0.03em;
 }
+
 li {
 list-style: none;
 }
@@ -236,21 +252,41 @@ font-weight: normal;
 font-size: 14px;
 line-height: 1.7;
 }
+.cards-item .title,
+.cards-item .profession {
+  text-align: center;
+}
+.cards-item {
+border-radius: 0px 0px 4px 4px;
+background: #FFFFFF;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px 
+rgba(0, 0, 0, 0.14), 0px 2px 1px 
+rgba(0, 0, 0, 0.2);
+overflow: hidden;
+}
 
 /*FOOTER*/
 .footer {
   background-color: var(--primary-bg-color);
 }
+.footer-card {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 .logotype {
   color:#fff;
 }
-.address { 
+.address {
+ display: block;  
 font-style: normal;
 color: var(--title-text-color);
 font-weight: normal;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
+
+margin: 0;
+padding-top: 20px;
 }
 
 .inform .inform-link {
@@ -260,6 +296,7 @@ letter-spacing: 0.03em;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--address-color);
+  padding-top: 9px;
 }
 .inform-link:hover,
 .inform-link:focus {
