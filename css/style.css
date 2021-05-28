@@ -13,6 +13,7 @@
   --text-color: #757575;
   --address-color: rgba(255, 255, 255, 0.6);
   --buttom-color: #188CE8;
+  --border-color: #ECECEC;
 }
 body {
   background-color: var(--title-text-color);
@@ -121,7 +122,7 @@ text-align: center;
   
 }
 .hero {
-border-top: 1px solid #ECECEC;
+border-top: 1px solid var(--border-color);
 background-color: var(--primary-bg-color);
 height: 600px;
 left: 0px;
