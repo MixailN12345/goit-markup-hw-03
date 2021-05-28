@@ -7,12 +7,17 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
     rel="stylesheet">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"
+  /> 
   <link rel="stylesheet" href="./css/portfolio.css">
 </head>
 
 <body>
   <!--шапка сайта-->
   <header class="page-header">
+  
     <!--logo-->
       <a href="index.html" class="logo">
       <b><span class="webstudio">Web</span>Studio</b>
@@ -30,9 +35,11 @@
   
     <li><a href="tel:+380961111111" class="contacts-list">+38-096-111-11-11</a></li>
 </ul>
+
 </header>
   <main>
     <section class="section">
+      <div class="container">
       <ul class="btn">
       <li><button type="button" class="button">Все</button></li>
       <li><button type="button" class="buttonLink">Веб-сайты</button></li>
@@ -40,8 +47,10 @@
       <li><button type="button" class="buttonLink">Дизайн</button></li>
       <li><button type="button" class="buttonLink">Маркетинг</button></li>
       </ul>
+    </div>
     </section>
     <section class="section">
+      <div class="container">
       <ul>
         <li>
       <a href="" class="section-title">
@@ -49,11 +58,11 @@
         <h1>Технокряк</h1>
         <p>Веб-сайт</p>
       </a>
-        <p>
+        <!-- <p>
           Технокряк это современная площадка распространения коронавируса.
            Компании используют эту платформу для цифрового шпионажа и атак
            на защищённые сервера конкурентов.
-          </p>
+          </p> -->
       </li>
       </ul>
       <ul>
@@ -126,9 +135,11 @@
       </a>
       </li>
       </ul>
+    </div>
     </section>
   </main>
   <footer>
+    <div class="container">
       <a href="index.html" class="logo">
         <b><span class="webstudio">Web</span><span class="logotype">Studio</span></b>
       </a>
@@ -139,6 +150,7 @@
           <li><a href="tel:+380961111111" class="mail-list">+38-096-111-11-11</a></li>
         </ul>
     </address>
+  </div>
   </footer>
 </body>
 </html>

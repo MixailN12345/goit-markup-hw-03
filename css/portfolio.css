@@ -1,3 +1,4 @@
+
 /*цвет основного текста #212121*/
 /*вторичний цвет текста #757575*/
 /*цвет background #E5E5E5*/
@@ -19,9 +20,37 @@ body {
   color: var(--primary-text-color);
   font-family: Rotobo, sans-serif;
   text-decoration: none;
+  margin: 0;
+  padding: 0;
 
 }
+img {
+  display: block;
+  max-width: 370px;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+.page-header {
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 /*logo*/
 .logo {
   color: var(--primary-logo-color);
@@ -86,16 +115,21 @@ display: inline-block;
 min-width: 73px;
 margin: 0;
 border: none;
-text-align: center;
 }
-.buttonLink {
-font-weight: 500;
+
+.buttonLink { 
+border: #fff;
+font-style: normal;     
+font-weight: bold;
 font-size: 16px;
 line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--primary-text-color);
 display: inline-block;
+}
+.btn {
+  display: inline-block;
 }
 /*section*/
 .section-title {
@@ -105,16 +139,20 @@ li {
   list-style: none;
 }
 h1 {
+margin: 0;  
 color: var(--primary-text-color); 
 font-weight: bold;
 font-size: 18px;
 line-height: 2.0;
+letter-spacing: 0.06em;
 }
 p {
+margin: 0;  
 color: var(--text-color); 
 font-weight: normal;
 font-size: 16px;
 line-height: 1.87;
+letter-spacing: 0.03em;
 }
 footer {
   background-color: var(--primary-bg-color);
