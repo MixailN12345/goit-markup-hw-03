@@ -262,21 +262,21 @@ line-height: 1.7;
 }
 .cards-item {
 border-radius: 0px 0px 4px 4px;
-background: #FFFFFF;
+background: var(--title-text-color);
 box-shadow: var(--box-color);
 }
 
 /*FOOTER*/
 .footer {
-  background-color: var(--primary-bg-color);
+background-color: var(--primary-bg-color);
 }
 .footer-card {
-  padding-top: 60px;
-  padding-bottom: 60px;
+padding-top: 60px;
+padding-bottom: 60px;
 }
 .logotype {
-  color: var(--title-text-color);
-  font-style: normal;
+color: var(--title-text-color);
+font-style: normal;
 font-weight: bold;
 font-size: 26px;
 line-height: 1.2;
@@ -303,9 +303,11 @@ padding-top: 20px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--address-color);
-  padding-top: 9px;
 }
 .inform-link:hover,
 .inform-link:focus {
   color: var(--accent-color);
+}
+.inform-card {
+padding: 9px 0px 9px 0px;
 }
