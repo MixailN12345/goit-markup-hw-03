@@ -163,11 +163,7 @@ outline: 1px solid var(--outline-color);
 background: var(--title-text-color);
 box-shadow: var(--box-shadow);
 }
-/* .container-flex{
-background: #FFFFFF;
-border: 1px solid #EEEEEE;
-box-sizing: border-box;
-} */
+
 .container-flex {
   justify-content: center;
   display: flex;
