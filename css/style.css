@@ -17,6 +17,7 @@
   --box-color: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px 
   rgba(0, 0, 0, 0.14), 0px 2px 1px 
   rgba(0, 0, 0, 0.2);
+  --section-color: #F5F4FA;
 }
 body {
   background-color: var(--title-text-color);
@@ -29,12 +30,11 @@ img {
   max-width: 370px;
 }
 /*HEADER*/
-.page-header {
+.page-header .container {
   align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
   display: flex;
-  
 }
 /*CONTEINER*/
 .container {
@@ -55,13 +55,14 @@ ul {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
+  margin-right: 93px;
+  
 }
 .webstudio {
   color: var(--accent-color);
 }
 /*navigation*/
 .menu-nav .link { 
-
 color: var(--primary-text-color);
 font-weight: 500;
 font-size: 14px;
@@ -79,7 +80,6 @@ padding: 15 32;
 .menu-nav {
   display: flex;
   list-style: none;
-  margin-left: 93px;
   padding: 0;
 }
 .menu-nav .link:hover,
@@ -137,7 +137,7 @@ font-size: 44px;
 line-height: 1.36;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-padding-bottom: 30px;
+margin-bottom: 30px;
 }
 /*BUTTOM*/
 .buttom {  
@@ -188,7 +188,10 @@ padding-top: 94px;
 padding-bottom: 94px;
 }
 .section:nth-child(4) {
-  background-color: var(--title-text-color);
+  background-color: var(--section-color);
+}
+.section:nth-child(3) {
+padding-top: 0;
 }
 .section-title {
 margin: 0;  
@@ -220,7 +223,7 @@ letter-spacing: 0.03em;
 }
 .title {
 margin: 0;
-padding-top: 30px;  
+ 
 color: var(--primary-text-color);
 font-weight: 500;
 font-size: 16px;
@@ -237,8 +240,7 @@ line-height: 1.2;
 letter-spacing: 0.03em;
 }
 .cards-name {
-  margin-top: 30px;
-  margin-bottom: 90px;
+padding: 30px 32px;
 }
 
 li {
@@ -270,6 +272,12 @@ padding-bottom: 60px;
 }
 
 .logo-type {
+  display: block;
+  color: var(--primary-logo-color);
+  font-family: Raleway;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
   margin-bottom: 20px;
 }
 .logotype {
@@ -290,6 +298,7 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 margin: 0;
+margin-bottom: 9px;
 }
 
 .inform .inform-link {
@@ -306,5 +315,8 @@ margin: 0;
   color: var(--accent-color);
 }
 .inform-card {
-margin: 9px 0px 9px 0px;
+  margin-bottom: 9px;
+}
+.inform-card:last-child {
+  margin-bottom: 0;
 }

@@ -18,6 +18,7 @@
   rgba(0, 0, 0, 0.16);
   --outline-color: #EEEEEE;
   --border-color: #ECECEC;
+  --border-listen-color: #EEEEEE;   
 }
 body {
   background-color: var(--title-text-color);
@@ -116,8 +117,8 @@ margin-right: 30px;
   color: var(--accent-color);
 }
 .button {
-  font-style: normal;
-  font-weight: 500; 
+font-style: normal;
+font-weight: 500; 
 color: var(--title-text-color);
 background-color: var(--accent-color);
 font-size: 16px;
@@ -159,7 +160,7 @@ justify-content: center;
 }
 .btnList {
 padding-top: 94px;
-padding-bottom: 34px;
+padding-bottom: 94px;
 }
 .border-flex:hover,
 .border-flex:focus {
@@ -187,6 +188,7 @@ margin-top: 30px;
 /*section*/
 .section-title {
   text-decoration: none;
+  display: block;
 }
 li {
   list-style: none;
@@ -208,15 +210,22 @@ font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.03em;
 }
+
+
+ 
 .listen {
 display: block;
 align-items: center;
 padding: 20px 24px;
 }
+.listen {
+  border-left: 1px solid var(--border-listen-color);
+  border-right: 1px solid var(--border-listen-color);
+  border-bottom: 1px solid var(--border-listen-color);
+}
 .listen > h2 {
   margin-bottom: 4px;
 }
-
 footer {
 padding-top: 60px;
 padding-bottom: 60px;
